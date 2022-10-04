@@ -1,6 +1,6 @@
 <center><h1><b>Python OOP Notes<b><h1></center>
     
-____ 
+
 Below cell shows how items are declared
 
 
