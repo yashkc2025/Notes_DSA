@@ -1,6 +1,3 @@
----
----
-
 Below cell shows how items are declared
 
 
