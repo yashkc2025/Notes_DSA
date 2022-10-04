@@ -90,7 +90,7 @@ The below table shows that self function can be used to pass values instead of p
 <td>
 
 ```python
-def calculate_total(self,x,y): #self always needed
+def calculate_total(self,x,y):
         return x * y
 ```
 
@@ -98,7 +98,7 @@ def calculate_total(self,x,y): #self always needed
 <td>
 
 ```python
-def calculate_total(self): #self always needed
+def calculate_total(self):
         return self.quant * self.price
 ```
 </td>
@@ -146,8 +146,7 @@ class Item:
         self.price = price
         self.quantity = quant 
 item3 = Item("Book",300,2)
-print(item3.__dict__)
-```
 
-    {'name': 'Book', 'price': 300, 'quantity': 2}
-    
+item3.disc_rate = 20 #overriding the class attribute
+print(item3.disc_rate)
+```
